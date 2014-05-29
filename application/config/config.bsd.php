@@ -19,7 +19,6 @@ $config['linkedin_app_secret'] = '';
 
 $config['soundcloud_app_id'] = '';
 $config['soundcloud_app_secret'] = '';
-$config['smarty_template_dir'] = 'var/cache';
 
 
 $config['db']['default']['hostname'] = 'localhost';

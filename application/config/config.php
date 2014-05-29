@@ -2,7 +2,7 @@
 
 
 $AUTO_CONF=array(
-    '/var/www2/melissa/'				                                => 'bsd',
+    '/var/www/melissa.lo/'				                                => 'bsd',
     '/home/ukrai531/domains/melissaband.com.ua/public_html/test/'   => 'test', //Release Candidate
     '/home/ukrai531/domains/melissaband.com.ua/public_html/'        => 'live',
 // 'func'				=> 'conf_check_devel',
