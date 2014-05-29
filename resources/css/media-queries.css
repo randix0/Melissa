@@ -1,0 +1,85 @@
+@media screen and (max-width: 980px) {
+    html {
+        -webkit-text-size-adjust: none;
+    }
+    .s-section__main {min-height: 550px;}
+    .b-nav {display: none; padding: 25px 20px 20px 20px;}
+    .b-nav-item, a.b-nav-item:hover {background: none; color: #ffffff;
+        font-size: 2em;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: lighter;
+        line-height: 1.3;
+        text-transform: uppercase;
+    }
+    .b-nav-item__blog {display: block;}
+    a.b-nav-item:hover {}
+    .b-nav-blog {display: none;}
+    .s-content {margin: 0;}
+    .s-content-body {
+        padding: 80px 50px 50px 50px;
+    }
+    .b-logo {display: none; background-image: url(/resources/img/misc/logo_mobile.png); }
+    .s-section-label {
+        display: block;
+        color: #ffffff;
+        background: #000;
+        background: rgba(0,0,0,0.6);
+        padding: 4px 8px;
+        position: absolute;
+        top: 15px;
+        left: 0;
+        text-transform: uppercase;
+        font-size: 2em;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: lighter;
+        line-height: 1.3;
+    }
+    .s-section__main .b-nav, .s-section__main .b-logo {display: block;}
+    .s-section__main .b-nav {margin-top: 170px;}
+    .s-section__main .b-logo {width: 215px; height: 143px; background-size: contain; top: 20px; left: 20px;}
+    .s-section__blog {
+        padding: 20px 0 0 0;
+    }
+    .s-section__blog .b-logo {
+        display: block;
+        position: relative;
+        left: auto;
+        top: auto;
+        width: 100%;
+        background-size: contain;
+        background-position: 50% 50%;
+        margin-bottom: 20px;
+    }
+    .s-content {padding: 0;}
+    .s-content-body__folio {
+        background: rgba(255,255,255,0.8);
+    }
+    .s-section__about .s-content .s-content-body {padding: 20px;}
+    .sc-player {position: relative; padding: 60px 0;}
+    .sc-player .sc-controls {top: 25px; left: 25px;}
+    .sc-player .sc-scrubber {top: 0; left: 60px; height: 50px;}
+    .sc-scrubber .sc-time-span {height: 40px;}
+    .sc-scrubber .sc-buffer, .sc-scrubber .sc-played {height: 40px;}
+    .sc-scrubber .sc-time-span img {height: 40px;}
+    .sc-scrubber .sc-volume-slider {left: 260px; top: 0; height: 20px;}
+    .sc-scrubber .sc-volume-slider .sc-volume-status {height: 18px;}
+    .sc-scrubber .sc-time-indicators {left: 260px; top: auto; bottom: 0; right: auto; width: 102px; text-align: center;}
+    .sc-player .sc-artwork-list, .sc-player .sc-info {display: none;}
+    .sc-player ol.sc-trackslist {margin: 0;}
+
+    .s-section__video {display: none;}
+    .s-section__video__mobile {display: block;}
+}
+
+@media screen and (max-width: 530px) {
+    .sc-scrubber .sc-time-indicators {display: none;}
+    .sc-scrubber .sc-volume-slider {display: none;}
+}
+
+@media screen and (max-width: 410px) {
+    .sc-scrubber {display: none;}
+}
+
+/*
+@media (min-width: 768px) and (max-width: 979px) {
+*/
